@@ -13,5 +13,5 @@ gem 'zeus', require: false
 # YARD
 gem 'fssm'
 gem 'pygments.rb'
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 gem 'yard'
