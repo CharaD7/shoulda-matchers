@@ -7,11 +7,11 @@ gem 'pry-byebug'
 gem 'rake', '12.3.2'
 gem 'rspec', '~> 3.6'
 gem 'rubocop', require: false
-gem 'rubocop-rails', require: false
+gem 'rubocop-rails', '>= 2.0.1', require: false
 gem 'zeus', require: false
 
 # YARD
 gem 'fssm'
 gem 'pygments.rb'
 gem 'redcarpet'
-gem 'yard'
+gem 'yard', '>= 0.9.35'
